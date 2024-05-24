@@ -42,7 +42,7 @@ Il vous est demandé de procéder à l'analyse des protocoles utilisés sur le r
 13. Capturer un mot de passe HTTP ou FTP ou Telnet (mettre en place les services si nécessaire)
 14. Comment mettre en place la confidentialité pour ce service ? 
 15. Capturer un handshake TLS
-16. Déchiffrer le trafic TLS avec votre certificat et/ou votre clé de session
+16. Déchiffrer le traffic TLS avec votre certificat et/ou votre clé de session
 17. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
 18. Connectez-vous sur https://taisen.fr et affichez la chaine de confiance du certificat
 19. Capturer une authentification Kerberos (mettre en place le service si nécessaire)
