@@ -2,7 +2,7 @@
 
 Analyse du trafic à l'aide de Wireshark
 
-Durée: 1.5 jours
+Durée: 2 jours
 
 Ce contenu est publié sous licence "GNU GENERAL PUBLIC LICENSE Version 3" et les sources sont sur le projet Github Dojo-101, merci d'en tenir compte dans vos usages.
 
@@ -42,6 +42,7 @@ Il vous est demandé de procéder à l'analyse des protocoles utilisés sur le r
 13. Capturer un mot de passe HTTP ou FTP ou Telnet (mettre en place les services si nécessaire)
 14. Comment mettre en place la confidentialité pour ce service ? 
 15. Capturer un handshake TLS
+<<<<<<< HEAD
 16. Déchiffrer le traffic TLS avec votre certificat et/ou votre clé de session
 17. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
 18. Connectez-vous sur https://taisen.fr et affichez la chaine de confiance du certificat
@@ -52,7 +53,20 @@ Il vous est demandé de procéder à l'analyse des protocoles utilisés sur le r
 23. Capturer une authentification SSH ou SFTP (mettre en place le service si nécessaire)
 24. Intercepter un fichier au travers du protocole SMB
 25. Comment proteger l'authenticité et la confidentialité d'un partage SMB ?
+=======
+16. Qu’est-ce qu’une autorité de certification (AC) racine ? Qu'est qu'une AC intermediaire ?
+17. Connectez-vous sur https://taisen.fr et affichez la chaine de confiance du certificat
+18. Capturer une authentification Kerberos (mettre en place le service si nécessaire)
+19. Capturer une authentification RDP (mettre en place le service si nécessaire)
+20. Quelles sont les attaques connues sur NetLM ?
+21. Capturer une authentification WinRM (Vous pouvez utiliser EvilWinRM si nécessaire côté client.)
+22. Capturer une authentification SSH ou SFTP (mettre en place le service si nécessaire)
+23. Intercepter un fichier au travers du protocole SMB
+24. Comment proteger l'authenticité et la confidentialité d'un partage SMB ?
+>>>>>>> 897f02656b20dec0bbc72ee46cd90ce0615ba2a2
 
+* Bonus 1 : Déchiffrer le traffic TLS en important la clé privée du certificat dans Wireshark
+* Bonus 2 : Reconstituer un fichier qui à transité sur le réseau à l'aide de Wireshark
 
 ## Modalités pédagogiques
 
